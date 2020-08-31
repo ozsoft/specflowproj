@@ -1,17 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="specflowproj/packages.config">
+  <MonoDevelop.Ide.Workbench ActiveDocument="specflowproj/TestSteps.cs">
     <Files>
-      <File FileName="specflowproj/Test.feature.cs" Line="27" Column="23" />
-      <File FileName="specflowproj/TestSteps.cs" Line="33" Column="37" />
-      <File FileName="specflowproj/packages.config" Line="1" Column="1" />
+      <File FileName="specflowproj/Test.feature.cs" Line="13" Column="23" />
+      <File FileName="specflowproj/TestSteps.cs" Line="13" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="specflowproj" expanded="True">
             <Node name="specflowproj" expanded="True">
-              <Node name="packages.config" selected="True" />
               <Node name="Test.feature" expanded="True" />
+              <Node name="TestSteps.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -27,7 +26,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/ozgur/Projects/specflowproj/specflowproj/TestSteps.cs" relfile="specflowproj/TestSteps.cs" line="64" column="1" />
+      <Breakpoint file="/Users/ozgur/Projects/specflowproj/specflowproj/TestSteps.cs" relfile="specflowproj/TestSteps.cs" line="57" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
