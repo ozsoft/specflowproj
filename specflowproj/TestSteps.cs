@@ -4,6 +4,12 @@ using TechTalk.SpecFlow;
 using NUnit.Framework;
 using TechTalk.SpecFlow.Assist;
 
+//git status : gives you the status of the source code compared to the github rep
+//git add . : this adds the modified files to now be able to be committed
+//git commit -m "comment on checkin" : commenting on the commit
+//git push https://github.com/ozsoft/specflowproj.git : push (forge, merge) commits to rep
+
+
 namespace specflowproj
 {
     [Binding]
