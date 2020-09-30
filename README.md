@@ -1,6 +1,7 @@
 # BUG_ID001
 
 TITLE
+
 When we are creating a timesheet the days field is a dropdown, but this gets converted to a text field when editing a timesheet
 
 /DETAILS
