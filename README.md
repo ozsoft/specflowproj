@@ -365,7 +365,7 @@ GUIDs do not match when deleting a timesheet
 
 
 
-#Other possible bugs to investigate:
+# Other possible bugs to investigate:
 
 1. adding a single timesheet day throws an error (related to BUG_ID003)
 2. adding a timesheet with same id is allowed - should this be allowed?
