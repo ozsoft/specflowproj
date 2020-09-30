@@ -1,6 +1,6 @@
 # BUG_ID001
 
-TITLE
+/TITLE
 
 When we are creating a timesheet the days field is a dropdown, but this gets converted to a text field when editing a timesheet
 
@@ -47,7 +47,7 @@ Day field is now a text field and not a dropdown
  
 # BUG_ID002
 
-TITLE
+/TITLE
 
 Adding a large Hourly rate number display the number in a large number format as the field has no max/min limits (I.e. 23232777655555555343333333)
 
@@ -91,7 +91,7 @@ No Min/Max validation added to the field
 
 # BUG_ID003
 
-TITLE
+/TITLE
 
 Whilst adding or editing an existing timesheet, adding a new timesheet does not store the added timesheet – you need to click on (+) button to add a new empty row to then add the item
 
@@ -134,7 +134,7 @@ On create and edit timesheet pages we get a development error when we try adding
 
 # BUG_ID004
 
-TITLE
+/TITLE
 
 When we get to display screen to see the details for timesheet added, we have the hourly rate label as $ but next to the value entered we have a different currency symbol i.e. £, I have seen some timesheets display Yen symbol, seems randomly selected as there is no selection for user to select currency. 
 
@@ -172,7 +172,7 @@ Observe contradiction between currency symbol of label ($) and the value symbol 
 
 # BUG_ID005
 
-TITLE
+/TITLE
 
 When creating a new timesheet, removing button (-) does not work, but does work when editing a timesheet
 
@@ -222,7 +222,7 @@ Cannot remove items when first creating a timesheet
 
 # BUG_ID006
 
-TITLE
+/TITLE
 
 No known limits set to number of items to be added for a timesheet, can create a memory leak if persistently adding items 
 
@@ -273,7 +273,7 @@ No requirements on this specified and user is able to add as many items as possi
 
 # BUG_ID007
 
-TITLE
+/TITLE
 
 Negative numbers allowed for minutes, hours, employee id and hourly rate fields when we are creating or editing timesheets, the employee ID field also allows incorrect NON-ASCII characters (¶�)
 
@@ -322,7 +322,7 @@ Employee ID field allows incorrect NON-ASCII characters (¶�)
 
 # BUG_ID008
 
-TITLE
+/TITLE
 
 On creating and editing a timesheet we allow hours more than 24 and minutes more than 60 with no validation for each day
 
@@ -360,21 +360,9 @@ No validation around hours/minutes on each day entered
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # BUG_ID009
 
-TITLE
+/TITLE
 
 When we are deleting a timesheet for id '9133f2b3-af08-4812-b23b-8e513adb2595’ we are asked to confirm for a timesheet with a different id 'b7f25fcd-3257-4a7f-a103-a4e1cedfa7bb' 
 
