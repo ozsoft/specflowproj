@@ -53,7 +53,7 @@ namespace specflowproj.Pages
         public void DayEnter(string val, int row)
         {
 
-            string s = string.Format("Timesheet_Entries_0__Day", row);
+            string s = string.Format("Timesheet_Entries_{0}__Day", row);
             IWebElement el = driver.FindElement(By.Id(s));
             SelectElement sel = new SelectElement(el);
 

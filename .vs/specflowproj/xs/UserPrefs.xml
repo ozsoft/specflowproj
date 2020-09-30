@@ -1,23 +1,30 @@
 ﻿<Properties StartupConfiguration="{875725E0-AE18-47F6-B213-1CB7B1529742}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+  <MonoDevelop.Ide.Workbench ActiveDocument="specflowproj/Pages/CreatePage.cs">
     <Files>
-      <File FileName="specflowproj/TestSteps.cs" Line="14" Column="54" />
+      <File FileName="specflowproj/TestSteps.cs" Line="39" Column="10" />
       <File FileName="specflowproj/Test.feature" Line="15" Column="61" />
-      <File FileName="specflowproj/Pages/CreatePage.cs" Line="117" Column="23" />
+      <File FileName="specflowproj/Pages/CreatePage.cs" Line="16" Column="10" />
       <File FileName="specflowproj/specflowproj.csproj" />
-      <File FileName="specflowproj/Tests/CreateTimesheet.cs" Line="18" Column="1" />
+      <File FileName="specflowproj/Tests/CreateTimesheet.cs" Line="21" Column="10" />
       <File FileName="specflowproj/Pages/HomePage.cs" Line="20" Column="1" />
       <File FileName="specflowproj/Test.feature.cs" Line="1" Column="1" />
       <File FileName="specflowproj/Pages/DetailsPage.cs" Line="28" Column="1" />
-      <File FileName="README.md" Line="314" Column="1" />
+      <File FileName="README.md" Line="366" Column="1" />
+      <File FileName="specflowproj/packages.config" Line="1" Column="1" />
+      <File FileName="specflowproj/Pages/DeletePage.cs" Line="11" Column="1" />
+      <File FileName="specflowproj/Pages/EditPage.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="specflowproj" expanded="True">
-            <Node name="specflowproj" expanded="True" selected="True">
+            <Node name="specflowproj" expanded="True">
               <Node name="Features" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="CreatePage.cs" selected="True" />
+              </Node>
               <Node name="StepDefinitions" expanded="True" />
+              <Node name="Tests" expanded="True" />
             </Node>
           </Node>
         </State>
