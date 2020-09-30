@@ -1,8 +1,5 @@
-﻿using System;
-using NUnit.Framework;
+﻿
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using specflowproj.Pages;
 
 namespace specflowproj
 {

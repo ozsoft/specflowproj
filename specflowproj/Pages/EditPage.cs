@@ -1,5 +1,4 @@
-﻿using System;
-namespace specflowproj.Pages
+﻿namespace specflowproj.Pages
 {
     public class EditPage
     {

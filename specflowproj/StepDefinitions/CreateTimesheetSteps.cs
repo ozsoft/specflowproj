@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using TechTalk.SpecFlow;
-using NUnit.Framework;
-using TechTalk.SpecFlow.Assist;
 using OpenQA.Selenium;
 using specflowproj.Tests;
 using OpenQA.Selenium.Chrome;
-using specflowproj.Pages;
 
 //git status : gives you the status of the source code compared to the github rep
 //git add . : this adds the modified files to now be able to be committed
