@@ -7,12 +7,19 @@ When we are creating a timesheet the days field is a dropdown, but this gets con
 /DETAILS
 
 Environment: CODAT_PRODUCTION
+
 Branch: prod
+
 Build: Prod
+
 Process/console: -
+
 User: Non-logged in
+
 Severity: Medium 
+
 Priority: Medium
+
 URL: https://codat-qa-task.azurewebsites.net/CreateOrEdit?Timesheetid=a76789a8-7528-492f-b583-556f017d54f4
 
 /STEPS
@@ -54,12 +61,19 @@ Adding a large Hourly rate number display the number in a large number format as
 /DETAILS
 
 Environment: CODAT_PRODUCTION
+
 Branch: prod
+
 Build: Prod
+
 Process/console: -
+
 User: Non-logged in
+
 Severity: Medium 
+
 Priority: Medium
+
 URL: https://codat-qa-task.azurewebsites.net/CreateOrEdit?Timesheetid=2edac1a2-103d-45d7-b314-2aacbdf1baee 
 
 /STEPS
