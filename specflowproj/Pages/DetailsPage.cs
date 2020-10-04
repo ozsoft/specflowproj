@@ -1,6 +1,8 @@
 ﻿
+using System;
 using NUnit.Framework;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 
 namespace specflowproj.Pages
 {
@@ -12,6 +14,10 @@ namespace specflowproj.Pages
         public DetailsPage(IWebDriver driver)
         {
             this.driver = driver;
+            WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 30));
+            wait.Until(c => driver.FindElement(By.XPath("/html/body/div/main/div[1]/dl/dd[1]")));
+
+
         }
 
 
