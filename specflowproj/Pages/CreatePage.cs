@@ -16,7 +16,7 @@ namespace specflowproj.Pages
         {
             this.driver = driver;
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 30));
-            wait.Until(c => driver.Url.Contains("https://codat-qa-task.azurewebsites.net/CreateOrEdit"));
+            wait.Until(c => driver.FindElement(By.Id("Timesheet_EmployeeId")));
 
         }
 

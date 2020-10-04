@@ -2,7 +2,7 @@
     Whilst adding a timesheet
     adding a new timesheet does not store the added timesheet 
     unless you click on (+) button to add a new empty row to then add the item successfully
-    
+
 
 @browser: chrome
 Scenario Outline: Adding new timesheet with a single row
