@@ -1,18 +1,14 @@
 ﻿<Properties StartupConfiguration="{875725E0-AE18-47F6-B213-1CB7B1529742}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="specflowproj/Pages/CreatePage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="specflowproj/SpecflowHooks.cs">
     <Files>
-      <File FileName="specflowproj/TestSteps.cs" Line="39" Column="10" />
-      <File FileName="specflowproj/Test.feature" Line="15" Column="61" />
-      <File FileName="specflowproj/Pages/CreatePage.cs" Line="16" Column="10" />
-      <File FileName="specflowproj/specflowproj.csproj" />
-      <File FileName="specflowproj/Tests/CreateTimesheet.cs" Line="21" Column="10" />
-      <File FileName="specflowproj/Pages/HomePage.cs" Line="20" Column="1" />
-      <File FileName="specflowproj/Test.feature.cs" Line="1" Column="1" />
-      <File FileName="specflowproj/Pages/DetailsPage.cs" Line="28" Column="1" />
-      <File FileName="README.md" Line="366" Column="1" />
+      <File FileName="specflowproj/SpecflowHooks.cs" Line="50" Column="10" />
+      <File FileName="specflowproj/Features/CreateTimesheet.feature" Line="7" Column="17" />
+      <File FileName="specflowproj/StepDefinitions/CreateTimesheetSteps.cs" Line="31" Column="10" />
+      <File FileName="specflowproj/Tests/TimesheetTest.cs" Line="65" Column="10" />
+      <File FileName="specflowproj/Pages/ErrorPage.cs" Line="24" Column="1" />
+      <File FileName="specflowproj/Pages/HomePage.cs" Line="22" Column="1" />
+      <File FileName="specflowproj/Pages/CreatePage.cs" Line="82" Column="1" />
       <File FileName="specflowproj/packages.config" Line="1" Column="1" />
-      <File FileName="specflowproj/Pages/DeletePage.cs" Line="11" Column="1" />
-      <File FileName="specflowproj/Pages/EditPage.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,25 +16,26 @@
           <Node name="specflowproj" expanded="True">
             <Node name="specflowproj" expanded="True">
               <Node name="Features" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="CreatePage.cs" selected="True" />
-              </Node>
+              <Node name="Helpers" expanded="True" />
+              <Node name="Pages" expanded="True" />
               <Node name="StepDefinitions" expanded="True" />
               <Node name="Tests" expanded="True" />
+              <Node name="SpecflowHooks.cs" selected="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="specflowproj" expanded="True">
             <Node name="specflowproj" expanded="True">
               <Node name="specflowproj.Features" expanded="True">
-                <Node name="AddingANewTimesheetFeature" expanded="True">
-                  <Node name="AddingNewTimesheetWithTwoRows" selected="True" />
+                <Node name="CreateTimesheetFeature" expanded="True">
+                  <Node name="AddingNewTimesheetWithASingleRow" expanded="True" />
+                  <Node name="AddingNewTimesheetWithTwoRows" expanded="True" />
+                  <Node name="AddingNewTimesheetWithTwoRowsWithData" expanded="True">
+                    <Node name="AddingNewTimesheetWithTwoRowsWithData(&quot;CPD400&quot;,&quot;400&quot;,&quot;Wednesday&quot;,&quot;10&quot;,&quot;40&quot;,null)" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -51,11 +48,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <Debugger.DebugSourceFolders>
     <String>/Users/ozgur/Library/Caches/VisualStudio/8.0/Symbols/techtalk/SpecFlow/73c0927c7d8833ac1022ba4cfe4a42093d7f7966</String>
+    <String>/Users/ozgur/Library/Caches/VisualStudio/8.0/Symbols/techtalk/SpecFlow/48821f8a03d3d6cff074264391c9d64491bfffc8</String>
   </Debugger.DebugSourceFolders>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/ozgur/Projects/specflowproj/specflowproj/Pages/CreatePage.cs" relfile="specflowproj/Pages/CreatePage.cs" line="66" column="1" />
-      <Breakpoint file="/Users/ozgur/Projects/specflowproj/specflowproj/Tests/CreateTimesheet.cs" relfile="specflowproj/Tests/CreateTimesheet.cs" line="46" column="1" />
+      <Breakpoint file="/Users/ozgur/Projects/specflowproj/specflowproj/Tests/TimesheetTest.cs" relfile="specflowproj/Tests/TimesheetTest.cs" line="47" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

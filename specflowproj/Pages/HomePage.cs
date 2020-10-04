@@ -14,10 +14,6 @@ namespace specflowproj
 
         }
 
-
-
-
-
         public void ClickOnCreateNewLink()
         {
             IWebElement el = driver.FindElement(By.XPath("/html/body/div/main/p/a"));

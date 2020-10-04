@@ -18,8 +18,8 @@ namespace specflowproj.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Adding a new timesheet")]
-    public partial class AddingANewTimesheetFeature
+    [NUnit.Framework.DescriptionAttribute("Create Timesheet")]
+    public partial class CreateTimesheetFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -31,7 +31,7 @@ namespace specflowproj.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Adding a new timesheet", "    Whilst adding a timesheet\n    adding a new timesheet does not store the added" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Create Timesheet", "    Whilst adding a timesheet\n    adding a new timesheet does not store the added" +
                     " timesheet \n    unless you click on (+) button to add a new empty row to then ad" +
                     "d the item successfully", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
@@ -73,17 +73,27 @@ namespace specflowproj.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Adding new timesheet with a single row")]
-        public virtual void AddingNewTimesheetWithASingleRow()
+        [NUnit.Framework.CategoryAttribute("browser:")]
+        [NUnit.Framework.CategoryAttribute("chrome")]
+        [NUnit.Framework.TestCaseAttribute("CPD400", "400", "Wednesday", "10", "40", null)]
+        public virtual void AddingNewTimesheetWithASingleRow(string employeeId, string hourlyRate, string day, string hours, string minutes, string[] exampleTags)
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Adding new timesheet with a single row", null, ((string[])(null)));
-#line 7
+            string[] @__tags = new string[] {
+                    "browser:",
+                    "chrome"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Adding new timesheet with a single row", null, @__tags);
+#line 8
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 8
-    testRunner.Given("I navigate to homepage and clicked on create new", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
-    testRunner.When("I create new timesheet page for a single row", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.Given("I navigate to homepage and clicked on create new", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
+    testRunner.When(string.Format("I create new timesheet page for a single row with {0} {1} {2} {3} {4}", employeeId, hourlyRate, day, hours, minutes), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
     testRunner.Then("The result should be an error on saving the timesheet", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -91,18 +101,54 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Adding new timesheet with two rows")]
-        public virtual void AddingNewTimesheetWithTwoRows()
+        [NUnit.Framework.CategoryAttribute("timesheet")]
+        [NUnit.Framework.TestCaseAttribute("CPD400", "400", "Wednesday", "10", "40", null)]
+        public virtual void AddingNewTimesheetWithTwoRows(string employeeId, string hourlyRate, string day, string hours, string minutes, string[] exampleTags)
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Adding new timesheet with two rows", null, ((string[])(null)));
-#line 12
+            string[] @__tags = new string[] {
+                    "timesheet"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Adding new timesheet with two rows", null, @__tags);
+#line 18
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 13
+#line 19
     testRunner.Given("I navigate to homepage and clicked on create new", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 14
-    testRunner.When("I create new timesheet page for a double row", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 15
-    testRunner.Then("The result should be added to the list successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 20
+    testRunner.When(string.Format("I create new timesheet page for a double row with {0} {1} {2} {3} {4}", employeeId, hourlyRate, day, hours, minutes), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 21
+    testRunner.Then(string.Format("The result should be added to the list successfully with {0} {1} {2} {3} {4}", employeeId, hourlyRate, day, hours, minutes), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Adding new timesheet with two rows with data")]
+        [NUnit.Framework.CategoryAttribute("timesheet")]
+        [NUnit.Framework.TestCaseAttribute("CPD400", "400", "Wednesday", "10", "40", null)]
+        [NUnit.Framework.TestCaseAttribute("CPD500", "300", "Wednesday", "10", "40", null)]
+        [NUnit.Framework.TestCaseAttribute("CPD500", "300", "Wednesday", "10", "40", null)]
+        public virtual void AddingNewTimesheetWithTwoRowsWithData(string employeeId, string hourlyRate, string day, string hours, string minutes, string[] exampleTags)
+        {
+            string[] @__tags = new string[] {
+                    "timesheet"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Adding new timesheet with two rows with data", null, @__tags);
+#line 28
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 29
+    testRunner.Given("I navigate to homepage and clicked on create new", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 30
+    testRunner.When(string.Format("I create new timesheet page with double row using data {0} {1} {2} {3} {4}", employeeId, hourlyRate, day, hours, minutes), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 31
+    testRunner.Then(string.Format("The result should be added to the list successfully with {0} {1} {2} {3} {4}", employeeId, hourlyRate, day, hours, minutes), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
