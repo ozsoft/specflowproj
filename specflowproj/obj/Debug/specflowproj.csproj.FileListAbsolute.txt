@@ -160,6 +160,7 @@
 /Users/ozgur/Projects/specflowproj/specflowproj/bin/Debug/System.Numerics.Vectors.xml
 /Users/ozgur/Projects/specflowproj/specflowproj/bin/Debug/System.Memory.xml
 /Users/ozgur/Projects/specflowproj/specflowproj/bin/Debug/TechTalk.SpecFlow.pdb
+/Users/ozgur/Projects/specflowproj/specflowproj/obj/Debug/specflowproj.csprojAssemblyReference.cache
 /Users/ozgur/Projects/specflowproj/specflowproj/obj/Debug/specflowproj.csproj.CoreCompileInputs.cache
 /Users/ozgur/Projects/specflowproj/specflowproj/obj/Debug/specflowproj.csproj.CopyComplete
 /Users/ozgur/Projects/specflowproj/specflowproj/obj/Debug/specflowproj.dll

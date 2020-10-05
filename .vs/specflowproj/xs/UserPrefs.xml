@@ -1,16 +1,16 @@
-﻿<Properties StartupConfiguration="{875725E0-AE18-47F6-B213-1CB7B1529742}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="specflowproj/Pages/DetailsPage.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="specflowproj/Helpers/SpecflowHooks.cs">
     <Files>
-      <File FileName="specflowproj/SpecflowHooks.cs" Line="14" Column="37" />
-      <File FileName="specflowproj/Features/CreateTimesheet.feature" Line="6" Column="1" />
-      <File FileName="specflowproj/StepDefinitions/CreateTimesheetSteps.cs" Line="31" Column="10" />
-      <File FileName="specflowproj/Tests/TimesheetTest.cs" Line="65" Column="10" />
-      <File FileName="specflowproj/Pages/ErrorPage.cs" Line="24" Column="1" />
-      <File FileName="specflowproj/Pages/HomePage.cs" Line="13" Column="1" />
-      <File FileName="specflowproj/Pages/CreatePage.cs" Line="20" Column="1" />
-      <File FileName="specflowproj/packages.config" Line="1" Column="1" />
-      <File FileName="specflowproj/Pages/DeletePage.cs" Line="5" Column="6" />
-      <File FileName="specflowproj/Pages/DetailsPage.cs" Line="14" Column="34" />
+      <File FileName="specflowproj/Features/CreateTimesheet.feature" Line="13" Column="9" />
+      <File FileName="specflowproj/StepDefinitions/CreateTimesheetSteps.cs" Line="71" Column="1" />
+      <File FileName="specflowproj/Tests/TimesheetTest.cs" />
+      <File FileName="specflowproj/Pages/ErrorPage.cs" />
+      <File FileName="specflowproj/Pages/HomePage.cs" />
+      <File FileName="specflowproj/Pages/CreatePage.cs" />
+      <File FileName="specflowproj/packages.config" />
+      <File FileName="specflowproj/Pages/DeletePage.cs" />
+      <File FileName="specflowproj/Pages/DetailsPage.cs" Line="20" Column="1" />
+      <File FileName="specflowproj/Helpers/SpecflowHooks.cs" Line="69" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +18,10 @@
           <Node name="specflowproj" expanded="True">
             <Node name="specflowproj" expanded="True">
               <Node name="Features" expanded="True" />
-              <Node name="Helpers" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="DetailsPage.cs" selected="True" />
+              <Node name="Helpers" expanded="True">
+                <Node name="SpecflowHooks.cs" selected="True" />
               </Node>
+              <Node name="Pages" expanded="True" />
               <Node name="StepDefinitions" expanded="True" />
               <Node name="Tests" expanded="True" />
             </Node>
@@ -30,19 +30,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="specflowproj" expanded="True">
-            <Node name="specflowproj" expanded="True">
-              <Node name="specflowproj.Features" expanded="True">
-                <Node name="CreateTimesheetFeature" expanded="True">
-                  <Node name="AddingNewTimesheetWithASingleRow" expanded="True" />
-                  <Node name="AddingNewTimesheetWithTwoRows" expanded="True" />
-                  <Node name="AddingNewTimesheetWithTwoRowsWithData" expanded="True">
-                    <Node name="AddingNewTimesheetWithTwoRowsWithData(&quot;CPD400&quot;,&quot;400&quot;,&quot;Wednesday&quot;,&quot;10&quot;,&quot;40&quot;,null)" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="specflowproj" expanded="True" />
         </State>
       </Pad>
     </Pads>
