@@ -26,7 +26,6 @@ namespace specflowproj
         [Given("I navigate to homepage and clicked on create new")]
         public void GivenIhaveBrowsedToHomePageAndClickedCreateNew()
         {
-
             driver = new ChromeDriver(".");
             driver.Navigate().GoToUrl("https://codat-qa-task.azurewebsites.net/");
 
